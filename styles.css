@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.carousel .prev {
+    left: 0;
+}
+.carousel .next {
+    right: 0;
+}
+
+.band {
+    background-color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.article {
+    flex: 1;
+    padding: 10px;
+}
+
+.article img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
