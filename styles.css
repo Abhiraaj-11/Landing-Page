@@ -16,29 +16,6 @@ body {
     margin: auto;
 }
 
-.carousel-images img {
-    width: 100%;
-    display: none;
-}
-
-.carousel button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.carousel .prev {
-    left: 0;
-}
-.carousel .next {
-    right: 0;
-}
-
 .band {
     background-color: white;
     text-align: center;
